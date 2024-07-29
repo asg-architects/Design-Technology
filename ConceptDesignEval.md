@@ -1,11 +1,49 @@
 # Concept Design Tools Evaluation
 
 ## Problem Statement
+Planning and early design decisions have a large impact on project outcomes. Often, existing workflows do not explore and indentify benifitical design changes until the of cost of design changes has become too high.
 
 ## Thesis
+But utilizing tools designed for early phase conceptual design, we can improve outcomes through the continous and dynamic evaluation of metrics and analysis.
 
 ## Summary
+We evaluated several tools available on the market today.
 
-## Links
+### Forma
+
+Brower-based, early-stage, concept design and project planning tool.
+
+- Free context model linked to partnered data providers.
+- Simple and intuitive modeling tools.
+- Real-time area metrics.
+- One-click sustainability analysis tools.
+- The power of the “Cloud”.
+
+[Forma Presentation - Green Week 2024](https://asgarchitects-my.sharepoint.com/:p:/g/personal/mtalbott_ayerssaintgross_com/EZAav6wmxF5MsnZal9N2zHABDUOUICTZ8uAFCV1wTTHFdw?e=o3KJHY)
+
+### Girafe Technology
+
+Giraffe combines mapping, design and financial tools into a single, simple 3D digital twin. The digital twin is embedded in an API driven platform. This platform supports workflow automation across your organization.
+
+Mapping, managing pipeline, scenario planning, design, analysis and communication happen naturally and automatically in Giraffe
+
+### ArcGIS Urban
+
+Empower collaboration between planners, stakeholders, and the community to address current needs and emerging demands such as housing shortages, climate resiliency, and economic uncertainty. With ArcGIS Urban, you can evaluate the impacts of multiple zoning, land-use, and development scenarios with 3D visualizations and urban analytics. 
+
+### Arcol
+
+Streamline your workflow with real-time metrics, multiplayer design, built-in presentation tools, and more.
+
+### Snaptrude
+
+conceptual BIM tool. Snaptrude combines smart, parametric modeling, easy in-browser collaboration and strong interoperability with Revit to help architects and interior designers sketch and model better buildings, faster.
+
+### Test-fit
+
+## Application
+
+University of Maryland, Baltimore - Grad Housing Study
+
 
 ## Conclusion

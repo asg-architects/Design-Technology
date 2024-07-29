@@ -1,10 +1,24 @@
 # Interoperability
 
 ## Problem Statement
+The digital landscape for designers continuously evolve and the need to move data between software is more important than ever.
 
 ## Thesis
+If data can be stored in a pltform agnostic and open-source format, then we can leverage and move data seemlessly between programs.
 
 ## Summary
+There are several options for interoperability
+
+Autodesk Data Exchange:
+
+Autodesk AEC Data Model API:
+
+Twinmotion/Unreal Datasmith:
+
+Omniverse - OpenUSD:
+
+Speckle:
+Utilizing the open-source Speckle Platform
 
 ## Links
 

@@ -21,7 +21,7 @@ Features:
 Repo:
 - [GitHub Repository](https://github.com/miketalbott/talbott-portfolio)
 
-Examples:
+## Application
 - [Bozzuto Marketing](https://bozzuto.asg-designs.com)
 - [Brown University ISLB Proposal](https://brown.asg-designs.com)
 - [Forma Examples](https://forma.asg-designs.com)
