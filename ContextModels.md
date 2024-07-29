@@ -21,3 +21,10 @@ Placemaker is a plugin provider that helps aggregate the 3d models from multiple
 ArcGIS provides access to rich GIS based features and layers.
 
 ## Conclusion
+
+Forma's GIS based context is a compelling option for early-stage concept planning with a low but usagable level of detail.
+
+Google Maps Tile API provides great reference for correcting GIS heights, and is useful in large-scale (aerial) visualizations. The models tend to be too "melty" when you get up close and editing is not really an option.
+
+## Next Steps
+- Write some automation scripts that can just get everything with one simple interface and setup your project on multiple platforms with context added.

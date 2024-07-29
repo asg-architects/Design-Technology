@@ -45,5 +45,9 @@ conceptual BIM tool. Snaptrude combines smart, parametric modeling, easy in-brow
 
 University of Maryland, Baltimore - Grad Housing Study
 
-
 ## Conclusion
+All of the options have positives and negatives.
+
+## Next Steps
+- Look into what it would take to make an in-house extension that could better support our needs. In particular, Plannings need for rich deep data.
+- Continue to monitor new emerging options.

@@ -24,3 +24,8 @@ Brown University - Jewelry District Study
 University of Maryland, Baltimore - Grad Housing Study
 
 ## Conclusion
+We confirmed that we could re-use a similar setup from one project to the next to deliver appealling results in a time-efficient manner.
+
+## Next Steps
+- Continue re-use when requested.
+- Explore how to leverage the framework for interactive deliverables.

@@ -14,7 +14,10 @@ Repo
 
 ## Application
 
-Protoype API
-
+Protoype GraphQL API
+[API Explorer](https://asg-api.com/)
 
 ## Conclusion
+
+## Next Steps
+- Figure out what the options are for integration with the new Square is going to be.

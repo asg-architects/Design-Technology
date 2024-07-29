@@ -15,3 +15,13 @@ Grasshopper:
 Utah Student Housing Facade:
 
 ## Conclusion
+Parametric Design is an itelligent way to be adaptable and ready for change. The up-front cost can be greater and the expertise required can be high. This can reduce the ROI and the accessibility for the average project. The pros and cons should be weighed for each project along with any future value beyond a specific project.
+
+## Next Steps
+- Evaluate alternative parametric design tools like:
+    - Railclone(3dsMax)
+    - GeometryNodes(Blender)
+    - Flow (Giraffe)
+    - Test-fit
+    - Dynamo(Revit)
+- Create a design spec for an idealized parametric design tool.
