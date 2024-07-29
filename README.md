@@ -1,6 +1,13 @@
 # Design Tecnology Research Log
 This is a Repository of note on the various research efforts in the Design Technology Studio
 
+# Mission
+
+-	**Support Designers**: Provide technology to keep our designers healthy, empowered, and moving at a smooth and efficient pace.
+-	**Elevate Design**: Elevate the quality, efficiency, and sustainability of our work through an intelligent and thoughtful application of technology.
+-	**Look Forward**: To explore and evaluate emerging technological trends and innovations that will keep us competitive and at the forefront of our industry.
+
+
 # Research Efforts
 
 1. [Public Microsites - asg-designs.com](/Microsites.md)
