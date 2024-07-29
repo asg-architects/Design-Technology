@@ -1,7 +1,5 @@
 # Public Microsites
 
-![Example Image](/assets/MicrositeExample.png)
-
 ## Problem Statement
 There is not a simple, professional, easy-to-use, and easy-to-access, method for sharing, and managing project assets.
 
@@ -11,16 +9,17 @@ Create a web app that allows for the easy creation of custom, shareable mircosit
 ## Summary
 A prototype Node.js /React app was created that can host and present images, folders, video, models, text, and iFrames in an easy to customize grid layout. The prototype is hosted at *.asg-designs.com where the * can be any short identifier for a project or site. 
 
+![Example Image](/assets/MicrositeExample.png)
+
 Features:
 - Drag and drop file uploads.
 - Folders allow for deeply nested hierarchies.
 - 3D model viewer that supports loading in Augmented Reality for intuitive interaction.
 
-## Links
-Repo
+Repo:
 - [GitHub Repository](https://github.com/miketalbott/talbott-portfolio)
 
-Examples
+Examples:
 - [Bozzuto Marketing](https://bozzuto.asg-designs.com)
 - [Brown University ISLB Proposal](https://brown.asg-designs.com)
 - [Forma Examples](https://forma.asg-designs.com)
