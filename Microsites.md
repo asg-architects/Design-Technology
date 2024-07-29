@@ -11,8 +11,6 @@ To explore the thesis, a prototype Node.js /React web-app was created that can h
 
 ![Example Image](/assets/MicrositeExample.png)
 
-![Example Image](/assets/MicrositeExample.png)
-
 Features:
 - Drag and drop file uploads.
 - Folders allow for deeply nested hierarchies.
