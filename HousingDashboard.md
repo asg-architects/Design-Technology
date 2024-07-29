@@ -15,6 +15,6 @@ Dynamically review and interact with student housing data to serve as an interna
 - Add AI feature for natural language processing 
 
 ## Links
-https://internal-showcase.ayerssaintgross.com/hlab/
+[Housing Dashboard - hLab](https://internal-showcase.ayerssaintgross.com/hlab/)
 
 ## Conclusion
