@@ -30,7 +30,9 @@ Repo:
 - [Univ. of Utah - Student Housing - Phase 1](https://utah.asg-designs.com)
 
 ## Conclusion
-The site succeeds in providing a easy-to-create, easy-to-access site for sharing project assets. Further development would include:
+The site succeeds in providing a easy-to-create, easy-to-access site for sharing project assets. 
+
+## Next Steps
 - Move hosting and storage to asg AWS services and ayerssaintgross.com domain.
 - Integrate with ASG data to connect to vantagepoint for project info and openasset for image storage and processing.
 - Add security and authorization so we can control who can view, edit, and share these sites.
