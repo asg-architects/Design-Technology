@@ -7,7 +7,9 @@ There is not a simple, professional, easy-to-use, and easy-to-access, method for
 Create a web app that allows for the easy creation of custom, shareable mircosites that can host and present a variety of project assets and information.
 
 ## Summary
-A prototype Node.js /React app was created that can host and present images, folders, video, models, text, and iFrames in an easy to customize grid layout. The prototype is hosted at *.asg-designs.com where the * can be any short identifier for a project or site. 
+To explore the thesis, a prototype Node.js /React web-app was created that can host and present images, folders, video, models, text, and iFrames in an easy to customize grid layout. The prototype is hosted at *.asg-designs.com where the * can be any short identifier for a project or site. 
+
+![Example Image](/assets/MicrositeExample.png)
 
 ![Example Image](/assets/MicrositeExample.png)
 
