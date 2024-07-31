@@ -8,7 +8,7 @@ This is a Repository of note on the various research efforts in the Design Techn
 -	**Explore Possibilities**: To explore and evaluate emerging technological trends and innovations that will keep us competitive and at the forefront of our industry.
 
 # Past Research Efforts
-1. [Public Microsites - asg-designs.com](Production+Delivery\Microsites.md)
+1. [Public Microsites - asg-designs.com](/Production+Delivery/Microsites.md)
 1. [Revit Automation - PyRevit](Production+Delivery\RevitAutomations.md)
 1. [Parametric Facade Design - U of. Utah Housing](Computation+Analysis\ParametricDesign.md)
 1. [Internal Data Workshop - Hackathon](Data\DataWorkshop.md)
