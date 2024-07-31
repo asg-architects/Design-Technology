@@ -9,7 +9,7 @@ Create a web app that allows for the easy creation of custom, shareable mircosit
 ## Summary
 To explore the thesis, a prototype Node.js /React web-app was created that can host and present images, folders, video, models, text, and iFrames in an easy to customize grid layout. The prototype is hosted at *.asg-designs.com where the * can be any short identifier for a project or site. 
 
-![Example Image](/assets/MicrositeExample.png)
+![Example Image](./assets/MicrositeExample.png)
 
 Features:
 - Drag and drop file uploads.

@@ -20,4 +20,4 @@ We created a collection of pyRevit Scripts that can be automatically loaded into
 
 ## Conclusion
 
-![Image](/assets/pyRevit.jfif)
+![Image](./assets/pyRevit.jfif)
