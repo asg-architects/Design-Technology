@@ -1,6 +1,8 @@
 # Introduction
 This is a Repository of note on the various research efforts in the Design Technology Studio
 
+![tux](https://github.com/user-attachments/assets/8aae5a88-0fc3-4132-a89e-c5ed6302ce75)
+
 # Mission
 
 -	**Support Designers**: Provide technology to keep our designers healthy, empowered, and moving at a smooth and efficient pace.
