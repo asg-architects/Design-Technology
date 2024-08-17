@@ -14,7 +14,7 @@ This is a Repository of note on the various research efforts in the Design Techn
 1. [Internal Data Workshop - Hackathon](/Data/DataWorkshop.md)
 1. [Context Models - Google Maps](/VisualizationImmersion/ContextModels.md)
 1. [Concept Design Tools Evaluation - Forma, Giraffe, Urban](/CreationIdeation/ConceptDesignEval.md)
-1. [Housing Dashboard - dash/plotly](/ComputationAnalysis/HousingDashboard.md)
+1. [Project Dashboards - dash/plotly](/ComputationAnalysis/HousingDashboard.md)
 1. [Fly-through Visualization - Brown, UMB, UT](/VisualizationImmersion/AerialVisualizations.md)
 
 # Present Research Efforts

@@ -1,10 +1,10 @@
-# Housing Dashboard
+# Project Dashboards
 
 ## Problem Statement
-Dynamically review and interact with student housing data to serve as an internal knowledge database, design tool, and marketing tool to showcase our experience. 
+Dynamically review and interact with project data of different types to serve as an internal knowledge database, design tool, and marketing tool to showcase our experience. 
 
 ## Thesis
-
+Making data more consistent and universally accessible makes us better informed designers and reinforces our external expertise as knoweldge experts
 
 ## Summary
 
