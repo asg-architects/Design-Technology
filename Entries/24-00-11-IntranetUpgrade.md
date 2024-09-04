@@ -19,6 +19,33 @@ The impending update to Knowledge Architectures New Synthesis 6 platform gives u
 ## Organization
 Proposed updates to the page hierarchy:
 
+1. HR + Office
+    - Employee Handbook (Guide)
+        - Company Overview
+        - Ethical and Professional Conduct
+        - Work Environment
+        - Information Technology
+        - Business Equipment
+        - Work Status and Compensation
+        - Personal and Professional Development
+        - Benefits
+        - Leave of Absence
+        - Travel and Expenses
+    - Resources (library)
+        - Forms and Docs
+        - On-boarding
+    - Accounting
+        - Payroll
+        - Timesheets
+        - Reimbursement
+        - Invoices
+        - Project Accounting
+    - Operations
+        - Seating Chart
+        - Parking
+        - Building Access
+        - Office Supplies
+        - Meeting Spaces (link)
 1. People + Culture
     - Mind + Body
         - Mission + Values
@@ -47,69 +74,48 @@ Proposed updates to the page hierarchy:
         - Jim Wheeler Day of Service
         - Corporate Giving
 1. Projects + Practice
-    - Projects
+    - Projects (directory)
         - All Projects
-        - Architecture
-        - Graphic Design   
-        - Planning
+        - Architecture - Student Life
+        - Architecture - Health & STEM
+        - Architecture - Arts & Culture
+        - Architecture - Flex
+        - Architecture - Interior Design
         - Landscape
-        - Interiors
+        - Planning
         - Space Analytics
-    - Integrated Practice
+        - Graphic Design   
+    - Integrated Practice (community)
+        - Management
         - Design Forum
         - Technical Excellence
         - Sustainability
-        - Digital Practice
-        - Data
-        - Innovation
-    - Standards & Codes
+        - Design Technology / Digital Practice / Data
+    - Resources (library?)
         - Building Codes
         - Documentation Standards
         - Specification Templates
-1. HR + Office
-    - Employee Handbook (Guide)
-        - Company Overview
-        - Ethical and Professional Conduct
-        - Work Environment
-        - Information Technology
-        - Business Equipment
-        - Work Status and Compensation
-        - Personal and Professional Development
-        - Benefits
-        - Leave of Absence
-        - Travel and Expenses
-    - Human Resources
-        - Employee Handbook
-        - Benefits
-        - Hybrid Work Policy
-        - On-boarding
-        - Forms and Docs
-    - Accounting
-        - Payroll
-        - Timesheets
-        - Reimbursement
-        - Travel Policy
-        - Invoices
-        - Project Accounting
-        - Forms and Docs
-    - Operations
-        - Seating Chart
-        - Parking
-        - Building Access
-        - Office Supplies
-        - Meeting Spaces
 1. Technology
-    - Information Technology
-        - Helpdesk
-        - Policies
-        - Network + Collaboration
+    - Helpdesk (link)
+    - IT Policy (guide)
         - Hardware + Equipment
-        - Software + Support
-    - Design Technology
-        - BIM Management
-        - Research + Development
-        - Software + Support
-        - Training (Link)
+        - Network + Collaboration
+        - Remote Access
+        - Personal Use
+        - Security
+        - Artificial Intelligence Use
+    - Resources (library?)
+        - Printer Instructions
+        - Conference Room Instructions
+        - Password Instruction
+    - Software + Support (guide?)
+        - VantagePoint
+        - Newforma
+        - Outlook
+        - Teams
+        - Zoom
+        - Office 365
+    - Design Technology (link)
 1. Marketing
     - Brand (Guide)
         - Logo Usage
