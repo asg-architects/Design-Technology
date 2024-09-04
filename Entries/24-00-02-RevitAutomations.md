@@ -1,17 +1,65 @@
 # Revit Automations - PyRevit
 
+## Primary Contact:
+Chris Hazel
+
+## Additional Developers
+Noah Harburger
+
 ## Problem Statement
 We perform too many tedious and repeative tasks in Revit that can consume a large amount of time.
 
 ## Thesis
-By creating a collection of automation scripts, we can reduce the time spent on these laborious tasks.
+By creating a collection of lightweight automation scripts, we can reduce the time spent on these laborious tasks.
 
 ## Summary
 We created a collection of pyRevit Scripts that can be automatically loaded into Revit for use by the whole firm.
 
+## Installation
+Install the base pyRevit plugin on your computer for all versions of Revit. This can be done without an admin password. 
+
+[Link to pyRevit GitHub](https://github.com/pyrevitlabs/pyRevit/releases/tag/v4.8.16.24121%2B2117)
+
+### To install the custom ASG toolset:
+
+- Open the pyRevit tab
+- Select the pyRevit dropdown to the far left on the ribbon
+- Select the "Settings" button which will open up this dialog box
+- Select "Add Folder" and navigate to this directory, " V:\DIGITAL TOOLBOX\Revit\pyRevit"
+- Select "Save Settings and Reload"
+
+Then you should get an extra tab named pyRevitASG with all of the buttons. You will never have to do these steps again; anytime I update a script on the network, it will automatically update in your ribbon next time you open Revit or reload pyRevit.
+
+![Image](./assets/pyrevitInstall.PNG)
+
 ## Application
-- **Wall Fixer**: You know that issue when you go to print your partition schedule and all of the tables are super whacked out? That's because our partitions have special values that define whether they have an acoustical or fire rating value; and by default, those values are set to *null*. Not 0 or no, but null, and that creates a whole lot of unpleasantness. This problem has been resolved in later versions of Revit, but if you are working on anything before Revit 2024, just click the Wall Fixer button and it will fix you right up. This button will read through all the partitions + walls in your model (anything not set to the **Reference Only** phase) and set Acoustical and Smoke values not set to Yes to be No and it will set any Fire Rating value less then .5 to 0. It's important to note that this button does not fix the overall issue of newly modeled partitions and walls having null values, it only sets values of elements already modeled. So, you will need to click the button prior to printing to ensure you are capturing all modeled elements. 
-- **Graphic Scales**: This is not a new script, just an update to make it more usable. In the update, it will now auto-import the required families and shared parameters needed for the graphic scale. So all you have to do to get dynamic graphic scales added to your sheet viewports is click the "Add Graphic Scale" button and select the sheets, the script does the rest. Refresher for anyone who hasn't used this script before (which I think is everyone). How this works is, it adds the graphic scale to the view title on your viewport that way the scale is always at the same place, even if you move a view on the sheet. There are a set of pre-defined view types that will get the graphic scale viewport, so you just need to select which sheets you want the graphic scale applied to. Unfortunately, the built-in scale parameter for a view is not accessible by the family, so we had to create our own writable scale value, so after you place the graphic scales, you will need to push the "Set View Scale Value" button, this will take care of the rest. Final note, the graphic scale pattern is static and works best with even numbered scales (i.e. 1/4", 1/8") I am working on a dynamic model for odd scales (i.e. 3/32"), but this is a little lower on my list. 
+### Graphic Scales
+- **Add Graphic Scale** : Add a dynamic graphic scale to your project and all applicable views on selected sheets. 
+- **Set View Scale Value** :  Automagically sets the scale for all associated graphic scales in your project.
+---
+### Hide/Unhide Annotations
+- **Add to Hide List** : Add an annotation family type to a list of elements that can be hidden/unhidden across the project. This list is sharable across all project team members. 
+- **Hide Elements** : Hide selected families from the list of hide elements.
+- **Unhide Elements** : Unhide all recently hidden elements. 
+---
+### Housing Tools
+- **Capture Data As Text** : Write a text note on the active view to sum and count selected filled region and detail item elements visible in the view. 
+- **Area Counter** : Create a static bar chart of the total area of selected filled regions and detail items visible in the active view. 
+- **Unit Counter** : Create a static bar chart of the total count of the selected filled regions and detail items visible in the active view. 
+---
+- **Add View to Sheet** : Add the active view to any sheet within the project (much easier than trying to manually find a view in the project browser)
+- **Function Request** : Request a function or report a bug. 
+- **Renumber Views** : Renumber all views on a set of sheets to align with the ASG titleblock grid. 
+- **spyRevit** : Dynamic function lookup in Revit (kind of like AutoCAD + Rhino).
+- **Cubify-Mega** : Create a set of generic family elements (size and parameters) based on .csv file input.
+- **Create Enlarged RCP** : Create live enlarged RCP views that follow the boundary of selected enlarged plan views. 
+- **Wall Fixer** : Will set all *null-value* wall parameters (acoustic rating, fire rating, smoke rating) to "No" or 0--this will help to clean up those partition schedules. 
+
+## Next Steps:
+New development of pyRevit buttons is on as-needed basis. 
+
+**Planned Updates**:
+- [] Room Exporter: Export all room geometry and important parameter data as a geoJSON file for cataloging space data
 
 
 ## Links
@@ -19,5 +67,6 @@ We created a collection of pyRevit Scripts that can be automatically loaded into
 - [Post on the Square](https://thesquare.ayerssaintgross.com/_layouts/15/Updates/ViewPost.aspx?ItemID=36145)
 
 ## Conclusion
+Use pyRevit, pardner
 
 ![Image](./assets/pyRevit.jfif)
