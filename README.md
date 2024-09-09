@@ -23,6 +23,7 @@ This is a Repository of note on the various research efforts in the Design Techn
 1. [Intranet Upgrade - The Square](/Entries/24-00-11-IntranetUpgrade.md)
 1. [Parametric Tools Eval - Grasshopper, Dynamo, RailClone](/Entries/24-00-12-ParametricToolsEval.md)
 1. [3D Content Management and Creation - Archvision Fovea](/Entries/24-00-13-ContentManagmentEval.md)
+1. [Collaboration Day 2024](/Entries/24-09-09-CollaborationDay.md)
 
 # Future Research Efforts
 1. [Interoperability - Speckle](/Entries/24-00-14-Interoperability.md)
