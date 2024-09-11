@@ -28,6 +28,10 @@ Output geometry is sent to Speckle through Grasshopper.
 - Option 2: A SketchUp Station that receives the speckle streams and then loads it in Enscape.
 - Option 3: A public microsite that displays a speckle viewer
 
+## Station 5b
+*Collaboration:*
+- Shared (Multi-user / Multi-modal) AR environment for exploring models together.
+
 ### Station 6
 *Accessibility:* A public website that displays a speckle viewer, some rendered views, some analysis diagrams, a power-bi dashboard
 

@@ -14,7 +14,7 @@ Repo
 
 ## Application
 
-Protoype GraphQL API
+Prototype GraphQL API
 - [API Explorer 1 - render.com](https://asg-graphql-api-2mih.onrender.com)
 - [API Explorer 2 - asg-api.com](https://asg-api.com/)
 
