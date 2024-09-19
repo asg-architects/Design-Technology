@@ -1,5 +1,5 @@
 # Introduction
-This is a Wiki of note on the various research efforts in the Design Technology Studio
+This is a collections of notes on the various research efforts in the Design Technology Studio
 
 # Mission
 

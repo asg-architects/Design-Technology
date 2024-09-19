@@ -1,5 +1,7 @@
 site_name: Design Technology - Research Log
 docs_dir: docs
+repo_url: https://github.com/asg-architects/Design-Technology
+repo_name: Design Technology GitHub Repo
 theme:
   name: material
   features:
