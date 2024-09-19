@@ -3,5 +3,8 @@
         "Helpdesk",
         "Revit",
         "Timesheets"
-    ]
+    ],
+    "markdown.copyFiles.destination": {
+        "docs/**/*": "assets/${documentBaseName}/"
+    }
 }
