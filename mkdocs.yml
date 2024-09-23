@@ -1,13 +1,18 @@
 site_name: Design Technology - Research Log
 docs_dir: docs
-repo_url: https://github.com/asg-architects/Design-Technology
-repo_name: Design Technology GitHub Repo
+#repo_url: https://github.com/asg-architects/Design-Technology
+#repo_name: Design Technology GitHub Repo
+markdown_extensions:
+  - tables
+plugins:
+  - search
+  - table-reader
 theme:
   name: material
   features:
 #    - navigation.tabs
 #    - navigation.sections
-#    - toc.integrate
+    - toc.integrate
 #    - navigation.top
     - search.suggest
     - search.highlight
@@ -28,4 +33,3 @@ theme:
         name: Switch to light mode
       primary: teal
       accent: lime
-    
