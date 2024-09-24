@@ -8,6 +8,10 @@ markdown_extensions:
 plugins:
   - search
   - table-reader
+  - git-authors
+#  - git-committers:
+#      repository: asg-architects/design-technology
+#      branch: main
   - git-revision-date-localized:
       enable_creation_date: true
 theme:
