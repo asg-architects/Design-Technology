@@ -1,0 +1,1933 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../15.0-AI-Image-Enhancers/">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.36">
+    
+    
+      
+        <title>15.1 AI Tools Evaluation - Design Technology - Research Log</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.06209087.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#test-of-excel-reader" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Design Technology - Research Log" class="md-header__button md-logo" aria-label="Design Technology - Research Log" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Design Technology - Research Log
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              15.1 AI Tools Evaluation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/asg-architects/Design-Technology" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    asg-architects/design-technology
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Design Technology - Research Log" class="md-nav__button md-logo" aria-label="Design Technology - Research Log" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Design Technology - Research Log
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/asg-architects/Design-Technology" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    asg-architects/design-technology
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Projects
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Projects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../00.1-Occupancy-Senors/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    00.1 Occupancy Senors
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01.0-Public-Microsites/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    01.0 Public Microsites
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02.0-pyRevit-Automations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    02.0 pyRevit Automations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03.0-Parametric-Design-Tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    03.0 Parametric Design Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04.0-Data-Workshop/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    04.0 Data Workshop
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04.1-ACBD-2024-Conference/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    04.1 ACBD 2024 Conference
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05.0-Context-Model-Automation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    05.0 Context Model Automation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06.0-Concept-Design-Tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    06.0 Concept Design Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06.1-Forma-Evaluation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    06.1 Forma Evaluation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07.0-Data-Dashboards/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    07.0 Data Dashboards
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08.0-City-Scale-Motion-Graphics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    08.0 City Scale Motion Graphics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09.0-Data-API/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    09.0 Data API
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10.0-The-Square-v2.0/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10.0 The Square v2.0
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11.0-Interoperability/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    11.0 Interoperability
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12.0-XR-Collaboration-Tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12.0 XR Collaboration Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13.0-Collaboration-Day/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    13.0 Collaboration Day
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14.0-City-Engine-Evaluation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    14.0 City Engine Evaluation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../15.0-AI-Image-Enhancers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    15.0 AI Image Enhancers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    15.1 AI Tools Evaluation
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    15.1 AI Tools Evaluation
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#test-of-excel-reader" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test of excel reader
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#test-of-excel-reader" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test of excel reader
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/asg-architects/Design-Technology/edit/main/docs/Projects/15.1-AI-Tools-Evaluation.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"/></svg>
+    </a>
+  
+  
+
+
+  <h1>15.1 AI Tools Evaluation</h1>
+
+<h2 id="test-of-excel-reader">Test of excel reader</h2>
+<p>this is a test of reading an excel file</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Tool Name</th>
+<th style="text-align: left;">Category</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: left;">Tool Reviews</th>
+<th style="text-align: right;">Chat Rating</th>
+<th style="text-align: left;">Rating Justification</th>
+<th style="text-align: right;">ASG Rating</th>
+<th style="text-align: right;">ASG Rating Justifications</th>
+<th style="text-align: left;">Website</th>
+<th style="text-align: left;">Pricing</th>
+<th style="text-align: left;">Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">ChatGPT</td>
+<td style="text-align: left;">Text Generation</td>
+<td style="text-align: left;">Generates human-like text for various applications, including content creation and brainstorming.</td>
+<td style="text-align: left;">Widely regarded as the top tool for text generation, praised for its adaptability and ease of use.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Very versatile, with broad applications in content creation, making it essential for text-based work.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://chat.openai.com</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free, $20/month for GPT-4</td>
+</tr>
+<tr>
+<td style="text-align: left;">MidJourney</td>
+<td style="text-align: left;">Image Generation</td>
+<td style="text-align: left;">Generates high-quality images from text prompts, useful for conceptual art and design inspiration.</td>
+<td style="text-align: left;">Excellent for concept art, fast output but requires some refinement for professional use.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Great for initial concept art but may not meet all professional needs without refinement.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.midjourney.com</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">$10-60/month based on plan</td>
+</tr>
+<tr>
+<td style="text-align: left;">DALL·E</td>
+<td style="text-align: left;">Image Generation</td>
+<td style="text-align: left;">Creates images from text descriptions, helpful for visualizing design concepts and ideas.</td>
+<td style="text-align: left;">Versatile tool with high image quality but has a steep learning curve.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Produces high-quality images, but requires some expertise to fully leverage its capabilities.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://openai.com/dall-e-2</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free, with paid credits for more generations</td>
+</tr>
+<tr>
+<td style="text-align: left;">Runway</td>
+<td style="text-align: left;">Image Enhancement</td>
+<td style="text-align: left;">Offers tools for enhancing images, creating videos, and working with creative AI models.</td>
+<td style="text-align: left;">Highly effective for improving photos, widely adopted in creative industries.</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">Strong tool for enhancing visuals, especially useful in marketing and presentations.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://runwayml.com</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">$15-100/month</td>
+</tr>
+<tr>
+<td style="text-align: left;">Revit Insights</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-powered insights integrated with Autodesk Revit to streamline architectural workflows.</td>
+<td style="text-align: left;">Useful for generating architectural insights, ideal for streamlining workflow.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Seamless integration with Revit helps streamline complex workflows in architecture.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.autodesk.com</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Depends on Autodesk Revit subscription</td>
+</tr>
+<tr>
+<td style="text-align: left;">Adobe Firefly</td>
+<td style="text-align: left;">Image Generation</td>
+<td style="text-align: left;">AI-powered image generation integrated with Adobe Creative Cloud tools.</td>
+<td style="text-align: left;">Popular for quick, artistic transformations of images, though sometimes quality is inconsistent.</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">Powerful image generation but may lack control over finer details for high-end projects.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.adobe.com</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Included with Adobe Creative Cloud subscription</td>
+</tr>
+<tr>
+<td style="text-align: left;">TestFit</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-based software for quickly generating building layouts and feasibility studies.</td>
+<td style="text-align: left;">Widely regarded as the top tool for text generation, praised for its adaptability and ease of use.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Very versatile, with broad applications in content creation, making it essential for text-based work.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.testfit.io</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing based on project needs</td>
+</tr>
+<tr>
+<td style="text-align: left;">Cove.Tool</td>
+<td style="text-align: left;">Analysis</td>
+<td style="text-align: left;">AI-powered building performance analysis tool, offering energy modeling and cost optimization.</td>
+<td style="text-align: left;">Excellent for concept art, fast output but requires some refinement for professional use.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Great for initial concept art but may not meet all professional needs without refinement.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.cove.tools</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Starting at $2,500/year</td>
+</tr>
+<tr>
+<td style="text-align: left;">Autodesk Forma</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-driven generative design tool helping architects with early-stage planning and analysis.</td>
+<td style="text-align: left;">Versatile tool with high image quality but has a steep learning curve.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Produces high-quality images, but requires some expertise to fully leverage its capabilities.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.autodesk.com/products/forma/overview</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing</td>
+</tr>
+<tr>
+<td style="text-align: left;">Skema</td>
+<td style="text-align: left;">Analysis</td>
+<td style="text-align: left;">AI-based tool for evaluating urban plans and architectural designs.</td>
+<td style="text-align: left;">Highly effective for improving photos, widely adopted in creative industries.</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">Strong tool for enhancing visuals, especially useful in marketing and presentations.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.skema.ai</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing</td>
+</tr>
+<tr>
+<td style="text-align: left;">Veras</td>
+<td style="text-align: left;">Image Generation</td>
+<td style="text-align: left;">AI-powered design assistant for generating architectural visualizations.</td>
+<td style="text-align: left;">Useful for generating architectural insights, ideal for streamlining workflow.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Seamless integration with Revit helps streamline complex workflows in architecture.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.veras.ai</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing</td>
+</tr>
+<tr>
+<td style="text-align: left;">Spacemaker by Autodesk</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-based platform that helps optimize early-stage site designs for livability.</td>
+<td style="text-align: left;">Popular for quick, artistic transformations of images, though sometimes quality is inconsistent.</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">Powerful image generation but may lack control over finer details for high-end projects.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.autodesk.com/products/spacemaker/overview</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing</td>
+</tr>
+<tr>
+<td style="text-align: left;">LookX</td>
+<td style="text-align: left;">Image Generation</td>
+<td style="text-align: left;">AI-powered fashion and interior design tool that generates custom designs.</td>
+<td style="text-align: left;">Widely regarded as the top tool for text generation, praised for its adaptability and ease of use.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Very versatile, with broad applications in content creation, making it essential for text-based work.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://lookx.ai</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free, with paid premium features</td>
+</tr>
+<tr>
+<td style="text-align: left;">Polycam</td>
+<td style="text-align: left;">3D Scanning</td>
+<td style="text-align: left;">AI-powered 3D scanning app to create models from real-world objects.</td>
+<td style="text-align: left;">Excellent for concept art, fast output but requires some refinement for professional use.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Great for initial concept art but may not meet all professional needs without refinement.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.polycam.ai</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid premium options</td>
+</tr>
+<tr>
+<td style="text-align: left;">Generative Engine</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-assisted algorithmic design tool for architects and designers.</td>
+<td style="text-align: left;">Versatile tool with high image quality but has a steep learning curve.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Produces high-quality images, but requires some expertise to fully leverage its capabilities.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://generative.design</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing</td>
+</tr>
+<tr>
+<td style="text-align: left;">Designify</td>
+<td style="text-align: left;">Image Enhancement</td>
+<td style="text-align: left;">Automatically removes image backgrounds and enhances images for design.</td>
+<td style="text-align: left;">Highly effective for improving photos, widely adopted in creative industries.</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">Strong tool for enhancing visuals, especially useful in marketing and presentations.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://designify.com</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid Pro version</td>
+</tr>
+<tr>
+<td style="text-align: left;">Planner 5D</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-powered tool for creating interior and landscape design projects.</td>
+<td style="text-align: left;">Useful for generating architectural insights, ideal for streamlining workflow.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Seamless integration with Revit helps streamline complex workflows in architecture.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://planner5d.com</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid premium features</td>
+</tr>
+<tr>
+<td style="text-align: left;">InteriorAI</td>
+<td style="text-align: left;">Image Generation</td>
+<td style="text-align: left;">Provides interior design ideas using AI to transform spaces into new designs.</td>
+<td style="text-align: left;">Popular for quick, artistic transformations of images, though sometimes quality is inconsistent.</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">Powerful image generation but may lack control over finer details for high-end projects.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://interiorai.com</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid premium features</td>
+</tr>
+<tr>
+<td style="text-align: left;">Hypar</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">Generative design platform for automating architectural layouts.</td>
+<td style="text-align: left;">High praise for its integration with generative design workflows.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Strong generative design capabilities.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.hypar.io</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing</td>
+</tr>
+<tr>
+<td style="text-align: left;">Artbreeder</td>
+<td style="text-align: left;">Image Generation</td>
+<td style="text-align: left;">Generates new images by blending and modifying existing ones.</td>
+<td style="text-align: left;">Solid for blending existing images to create new ones.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Great for generating unique visual content.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.artbreeder.com</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free, $8-40/month for Pro</td>
+</tr>
+<tr>
+<td style="text-align: left;">Deep Dream Generator</td>
+<td style="text-align: left;">Creative Design</td>
+<td style="text-align: left;">AI-powered tool for generating artistic images and abstract designs.</td>
+<td style="text-align: left;">Popular for creative abstract art, though niche usage.</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">Best for artistic, abstract purposes.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://deepdreamgenerator.com</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free, with paid Pro features</td>
+</tr>
+<tr>
+<td style="text-align: left;">Lumion AI</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">Uses AI to generate realistic architectural visualizations quickly.</td>
+<td style="text-align: left;">Very useful for visualizing realistic renders in architecture.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Key for high-end visualization in architecture.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://lumion.com</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Starting at $1,695 (one-time payment)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Tonic AI</td>
+<td style="text-align: left;">Analysis</td>
+<td style="text-align: left;">AI-based tool that helps designers simulate and evaluate city infrastructure.</td>
+<td style="text-align: left;">Key for infrastructure analysis, particularly in urban planning.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Excellent tool for infrastructure simulation.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.tonic.ai</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing based on project</td>
+</tr>
+<tr>
+<td style="text-align: left;">Colormind</td>
+<td style="text-align: left;">Design Helper - Color Scheme</td>
+<td style="text-align: left;">AI tool for generating color palettes and schemes for design projects.</td>
+<td style="text-align: left;">Highly popular among designers for generating on-trend color palettes.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Highly useful for generating color schemes.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">http://colormind.io</td>
+<td style="text-align: left;">Free</td>
+<td style="text-align: left;">Free</td>
+</tr>
+<tr>
+<td style="text-align: left;">Let’s Enhance</td>
+<td style="text-align: left;">Image Enhancement</td>
+<td style="text-align: left;">AI-powered image upscaling and enhancement for design presentations.</td>
+<td style="text-align: left;">Highly rated for improving image quality, especially for presentations.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Great for image enhancement tasks.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://letsenhance.io</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid premium options</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sefaira</td>
+<td style="text-align: left;">Analysis</td>
+<td style="text-align: left;">AI-based tool for real-time energy and daylight analysis in architectural projects.</td>
+<td style="text-align: left;">A must-have for architecture teams focused on sustainable design.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Top-tier for sustainable urban design.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.sefaira.com</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Included with SketchUp subscription</td>
+</tr>
+<tr>
+<td style="text-align: left;">Archie</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI assistant for generating architectural concept designs and optimizing space layouts.</td>
+<td style="text-align: left;">Great for space layout generation, but lacks deep customization.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Good tool for space layouts but lacks advanced customization.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.archie.com</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing</td>
+</tr>
+<tr>
+<td style="text-align: left;">Artomatix</td>
+<td style="text-align: left;">Image Generation</td>
+<td style="text-align: left;">AI-driven platform for generating textures, materials, and 3D content.</td>
+<td style="text-align: left;">A powerful tool for creating textures but may require additional refinement.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Useful for texture generation but needs refining.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.artomatix.com</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing</td>
+</tr>
+<tr>
+<td style="text-align: left;">CLIP STUDIO PAINT</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-assisted drawing and painting software for artists and designers.</td>
+<td style="text-align: left;">Excellent for AI-assisted drawing, particularly for illustrators.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Great for creative professionals, particularly illustrators.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.clipstudio.net</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">$0.99-8.99/month</td>
+</tr>
+<tr>
+<td style="text-align: left;">Surfer</td>
+<td style="text-align: left;">SEO Optimization</td>
+<td style="text-align: left;">AI-powered SEO optimization tool for improving search engine rankings.</td>
+<td style="text-align: left;">A powerful tool for improving SEO performance.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Best-in-class for improving SEO results.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.surferseo.com</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">$59/month</td>
+</tr>
+<tr>
+<td style="text-align: left;">Jasper</td>
+<td style="text-align: left;">Text Generation</td>
+<td style="text-align: left;">AI copywriting assistant for marketing content, blog posts, and social media.</td>
+<td style="text-align: left;">Highly regarded for copywriting assistance, especially for content marketers.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Top choice for marketing copywriters.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.jasper.ai</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Starting at $29/month</td>
+</tr>
+<tr>
+<td style="text-align: left;">Wordtune</td>
+<td style="text-align: left;">Text Generation</td>
+<td style="text-align: left;">AI-based text rewriting tool to enhance clarity, tone, and professionalism.</td>
+<td style="text-align: left;">Good for text rewriting and polishing copy, though basic free version.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Good for rewriting text, but the free version is limited.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.wordtune.com</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid Pro version ($9.99/month)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Planner 5D</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-powered tool for creating interior and landscape design projects.</td>
+<td style="text-align: left;">Great tool for home and landscape design ideas, though limited without premium features.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Useful for home and landscape design, though premium version is better.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://planner5d.com</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid premium features</td>
+</tr>
+<tr>
+<td style="text-align: left;">PatternedAI</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">Generates seamless patterns and textures for use in interior and graphic design.</td>
+<td style="text-align: left;">Fantastic for pattern generation, though slightly limited in terms of customization.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Solid pattern generator for graphic designers.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://patterned.ai</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid Pro version</td>
+</tr>
+<tr>
+<td style="text-align: left;">Generative Engine</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-assisted algorithmic design tool for architects and designers.</td>
+<td style="text-align: left;">Excellent for algorithmic design exploration in architecture.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Great for algorithmic design tasks.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://generative.design</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing based on project</td>
+</tr>
+<tr>
+<td style="text-align: left;">Deep Art Effects</td>
+<td style="text-align: left;">Image Enhancement</td>
+<td style="text-align: left;">Transforms photos into artistic images using AI, providing style transfer options.</td>
+<td style="text-align: left;">Solid for artistic image transformations, though results can vary.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Solid artistic effects, though inconsistent results.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://deepart.io</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid premium options</td>
+</tr>
+<tr>
+<td style="text-align: left;">Revit AI Plugin</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-powered plugin for Revit that assists with parametric design and optimization.</td>
+<td style="text-align: left;">Very helpful for Revit users looking to automate parametric designs.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Top-tier for Revit and parametric design automation.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.autodesk.com/revit</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Depends on Revit subscription</td>
+</tr>
+<tr>
+<td style="text-align: left;">Arup Oasys</td>
+<td style="text-align: left;">Analysis</td>
+<td style="text-align: left;">AI-based simulation and analysis tool for evaluating sustainability in urban designs.</td>
+<td style="text-align: left;">Key player in urban design sustainability analysis.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Excellent for sustainability analysis in urban planning.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.oasys-software.com</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing</td>
+</tr>
+<tr>
+<td style="text-align: left;">Buildots</td>
+<td style="text-align: left;">Construction</td>
+<td style="text-align: left;">AI-driven construction management platform to track progress and analyze project performance.</td>
+<td style="text-align: left;">Effective for tracking progress in construction.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Highly rated for its project tracking capabilities.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.buildots.com</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing based on project size</td>
+</tr>
+<tr>
+<td style="text-align: left;">Avvir</td>
+<td style="text-align: left;">Construction</td>
+<td style="text-align: left;">AI platform for real-time project tracking, offering quality control and risk detection for construction.</td>
+<td style="text-align: left;">Useful for real-time monitoring of construction quality.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Great for real-time project monitoring.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.avvir.io</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing</td>
+</tr>
+<tr>
+<td style="text-align: left;">HoloBuilder</td>
+<td style="text-align: left;">Construction</td>
+<td style="text-align: left;">AI-powered tool for 360-degree virtual construction site tours and progress tracking.</td>
+<td style="text-align: left;">Excellent for creating virtual tours of construction sites.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Excellent for immersive virtual site tours.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.holobuilder.com</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">$99/month</td>
+</tr>
+<tr>
+<td style="text-align: left;">Scaled Robotics</td>
+<td style="text-align: left;">Construction</td>
+<td style="text-align: left;">AI-driven construction robotics platform for project monitoring, reducing delays and cost overruns.</td>
+<td style="text-align: left;">Great tool for managing construction timelines.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Top tool for managing construction risks.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.scaledrobotics.com</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing based on project</td>
+</tr>
+<tr>
+<td style="text-align: left;">Spatiomatics</td>
+<td style="text-align: left;">Design Optimization</td>
+<td style="text-align: left;">AI-powered simulation tool for optimizing architectural layouts and space planning.</td>
+<td style="text-align: left;">Useful for space planning and optimization.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Good for space optimization but complex for new users.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.spatiomatics.com</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing</td>
+</tr>
+<tr>
+<td style="text-align: left;">Metafold</td>
+<td style="text-align: left;">Design Optimization</td>
+<td style="text-align: left;">AI platform for 3D printing optimization and complex geometries.</td>
+<td style="text-align: left;">High-quality tool for 3D printing and geometric optimization.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Essential for advanced 3D printing needs.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.metafold.ai</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing</td>
+</tr>
+<tr>
+<td style="text-align: left;">Veras</td>
+<td style="text-align: left;">Image Generation</td>
+<td style="text-align: left;">AI-powered design assistant for generating concept images and architectural visualizations.</td>
+<td style="text-align: left;">Solid tool for architectural visualizations.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Highly valued for design visualization.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.veras.ai</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing based on project</td>
+</tr>
+<tr>
+<td style="text-align: left;">ArtSmart</td>
+<td style="text-align: left;">Image Enhancement</td>
+<td style="text-align: left;">AI-enhanced photo editing tool, helping designers quickly enhance images.</td>
+<td style="text-align: left;">Popular for enhancing photo quality.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Effective for enhancing photo quality quickly.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.artsmart.io</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Starting at $15/month</td>
+</tr>
+<tr>
+<td style="text-align: left;">Designs.ai</td>
+<td style="text-align: left;">Graphic Design Helper</td>
+<td style="text-align: left;">AI-based platform for creating logos, videos, and marketing collateral.</td>
+<td style="text-align: left;">Effective for quick marketing collateral creation.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Great for generating marketing collateral quickly.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://designs.ai</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">$29/month for Basic, $69/month for Pro</td>
+</tr>
+<tr>
+<td style="text-align: left;">Khroma</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-based tool for generating color schemes and palettes for design projects.</td>
+<td style="text-align: left;">Useful for generating personalized color schemes.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Helps designers find unique color schemes.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.khroma.co</td>
+<td style="text-align: left;">Free</td>
+<td style="text-align: left;">Free</td>
+</tr>
+<tr>
+<td style="text-align: left;">CLIP STUDIO PAINT</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-assisted drawing and painting software for artists and designers.</td>
+<td style="text-align: left;">Highly rated for its drawing and painting capabilities.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Loved by artists for its intuitive interface.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.clipstudio.net</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">$0.99-8.99/month</td>
+</tr>
+<tr>
+<td style="text-align: left;">Generative Engine</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-assisted algorithmic design tool for architects and designers.</td>
+<td style="text-align: left;">Good for algorithmic design generation.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Strong tool for generative design.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://generative.design</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing based on project</td>
+</tr>
+<tr>
+<td style="text-align: left;">InteriorAI Pro</td>
+<td style="text-align: left;">Image Generation</td>
+<td style="text-align: left;">Advanced version of InteriorAI with more features for transforming room designs and generating photorealistic renderings.</td>
+<td style="text-align: left;">Effective for transforming interior spaces.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Great for advanced room transformations.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://interiorai.com/pro</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Starting at $19/month</td>
+</tr>
+<tr>
+<td style="text-align: left;">Planner 5D</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-powered tool for creating interior and landscape design projects.</td>
+<td style="text-align: left;">Solid for beginner and advanced designers.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Highly recommended for beginners and experts alike.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://planner5d.com</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid premium features</td>
+</tr>
+<tr>
+<td style="text-align: left;">PatternedAI</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">Generates seamless patterns and textures for use in interior and graphic design.</td>
+<td style="text-align: left;">Great for seamless pattern generation.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Highly valued for unique pattern generation.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://patterned.ai</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid Pro version</td>
+</tr>
+<tr>
+<td style="text-align: left;">DreamStudio</td>
+<td style="text-align: left;">Image Generation</td>
+<td style="text-align: left;">AI image generation tool, perfect for concept art and creative visualizations.</td>
+<td style="text-align: left;">Popular for creative image generation.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Effective for creating abstract visuals.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://beta.dreamstudio.ai</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid credits</td>
+</tr>
+<tr>
+<td style="text-align: left;">Deep Art Effects</td>
+<td style="text-align: left;">Image Enhancement</td>
+<td style="text-align: left;">Transforms photos into artistic images using AI, providing style transfer options.</td>
+<td style="text-align: left;">Powerful for artistic transformations.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Great for artists looking for photo transformation tools.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://deepart.io</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid premium options</td>
+</tr>
+<tr>
+<td style="text-align: left;">Autodesk Insight</td>
+<td style="text-align: left;">Analysis</td>
+<td style="text-align: left;">AI-based building performance analysis tool that integrates with Revit for energy optimization.</td>
+<td style="text-align: left;">Highly effective for building energy optimization.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Highly valuable for energy optimization.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.autodesk.com/products/insight/overview</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Included with Autodesk subscription</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sefaira</td>
+<td style="text-align: left;">Analysis</td>
+<td style="text-align: left;">AI-based tool for real-time energy and daylight analysis in architectural projects.</td>
+<td style="text-align: left;">A must-have for daylight and energy analysis.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Key tool for energy and daylight analysis.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.sefaira.com</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Included with SketchUp subscription</td>
+</tr>
+<tr>
+<td style="text-align: left;">Arup Oasys</td>
+<td style="text-align: left;">Analysis</td>
+<td style="text-align: left;">AI-based simulation and analysis tool for evaluating sustainability in urban designs.</td>
+<td style="text-align: left;">Great for sustainable urban design.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Top-tier for sustainable urban analysis.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.oasys-software.com</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing</td>
+</tr>
+<tr>
+<td style="text-align: left;">Hypar</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">Generative design platform for automating architectural layouts.</td>
+<td style="text-align: left;">Great for automated generative designs.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Highly valued for automating complex layouts.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.hypar.io</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing</td>
+</tr>
+<tr>
+<td style="text-align: left;">Polycam</td>
+<td style="text-align: left;">3D Scanning &amp; Design</td>
+<td style="text-align: left;">AI-powered 3D scanning app to create models from real-world objects.</td>
+<td style="text-align: left;">Highly useful for 3D scanning and modeling.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Great for converting real-world objects into 3D models.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.polycam.ai</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid premium options</td>
+</tr>
+<tr>
+<td style="text-align: left;">LookX</td>
+<td style="text-align: left;">Image Generation</td>
+<td style="text-align: left;">AI-powered fashion and interior design tool that generates custom designs.</td>
+<td style="text-align: left;">Effective tool for generating design concepts.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Good for conceptualizing new designs quickly.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://lookx.ai</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free, with paid premium features</td>
+</tr>
+<tr>
+<td style="text-align: left;">Archistar.ai</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-powered tool for generating architectural site plans and feasibility studies.</td>
+<td style="text-align: left;">Powerful for architectural site plans.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Essential for site feasibility studies.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://archistar.ai</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing</td>
+</tr>
+<tr>
+<td style="text-align: left;">Tonic AI</td>
+<td style="text-align: left;">Analysis</td>
+<td style="text-align: left;">An AI-based tool that helps designers simulate and evaluate city infrastructure.</td>
+<td style="text-align: left;">Excellent for city infrastructure analysis.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Effective for large-scale infrastructure evaluation.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.tonic.ai</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing based on project</td>
+</tr>
+<tr>
+<td style="text-align: left;">Spacemaker by Autodesk</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-based platform that helps optimize early-stage site designs for livability.</td>
+<td style="text-align: left;">Top tool for site planning optimization.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Highly rated for early-stage site planning.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.autodesk.com/products/spacemaker/overview</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing</td>
+</tr>
+<tr>
+<td style="text-align: left;">Cove.Tool</td>
+<td style="text-align: left;">Analysis</td>
+<td style="text-align: left;">AI-powered building performance analysis tool, offering energy modeling and cost optimization.</td>
+<td style="text-align: left;">Very effective for building performance analysis.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Strong for energy and cost optimization.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.cove.tools</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Starting at $2,500/year</td>
+</tr>
+<tr>
+<td style="text-align: left;">TestFit</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-based software for quickly generating building layouts and feasibility studies.</td>
+<td style="text-align: left;">Great for rapid building layout generation.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Excellent for fast building layout generation.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.testfit.io</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing based on project needs</td>
+</tr>
+<tr>
+<td style="text-align: left;">Autodesk Forma</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-driven generative design tool helping architects with early-stage planning and analysis.</td>
+<td style="text-align: left;">Key tool for early-stage architectural planning.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Key tool for early planning phases.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.autodesk.com/products/forma/overview</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing</td>
+</tr>
+<tr>
+<td style="text-align: left;">Skema</td>
+<td style="text-align: left;">Analysis</td>
+<td style="text-align: left;">AI-based tool for evaluating urban plans and architectural designs.</td>
+<td style="text-align: left;">Powerful tool for urban design evaluations.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Useful for urban planning and design evaluations.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.skema.ai</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing</td>
+</tr>
+<tr>
+<td style="text-align: left;">Fotor</td>
+<td style="text-align: left;">Image Enhancement</td>
+<td style="text-align: left;">Offers AI-based photo editing and design tools, useful for enhancing images.</td>
+<td style="text-align: left;">Effective for image enhancement and editing.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Popular for enhancing photo quality.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.fotor.com</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid Pro version</td>
+</tr>
+<tr>
+<td style="text-align: left;">Designify</td>
+<td style="text-align: left;">Image Enhancement</td>
+<td style="text-align: left;">Automatically removes image backgrounds and enhances images for design.</td>
+<td style="text-align: left;">Popular tool for quick image improvements.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Effective for improving image backgrounds quickly.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://designify.com</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid Pro version</td>
+</tr>
+<tr>
+<td style="text-align: left;">Revit AI Plugin</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-powered plugin for Revit that assists with parametric design and optimization.</td>
+<td style="text-align: left;">Useful for parametric design in Revit.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Great for integrating parametric design features in Revit.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.autodesk.com/revit</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Depends on Revit subscription</td>
+</tr>
+<tr>
+<td style="text-align: left;">PatternedAI</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">Generates seamless patterns and textures for use in interior and graphic design.</td>
+<td style="text-align: left;">Great tool for pattern generation in design.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Good for generating seamless textures for design.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://patterned.ai</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid Pro version</td>
+</tr>
+<tr>
+<td style="text-align: left;">DreamStudio</td>
+<td style="text-align: left;">Image Generation</td>
+<td style="text-align: left;">AI image generation tool, perfect for concept art and creative visualizations.</td>
+<td style="text-align: left;">Solid for generating creative visualizations.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Solid for producing concept art visuals.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://beta.dreamstudio.ai</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid credits</td>
+</tr>
+<tr>
+<td style="text-align: left;">Let’s Enhance</td>
+<td style="text-align: left;">Image Enhancement</td>
+<td style="text-align: left;">AI-powered image upscaling and enhancement for design presentations.</td>
+<td style="text-align: left;">Excellent for upscaling image quality.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Useful for improving low-res images.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://letsenhance.io</td>
+<td style="text-align: left;">Freemium</td>
+<td style="text-align: left;">Free with paid premium options</td>
+</tr>
+<tr>
+<td style="text-align: left;">Colormind</td>
+<td style="text-align: left;">Design Helper - Color Scheme</td>
+<td style="text-align: left;">AI tool for generating color palettes and schemes for design projects.</td>
+<td style="text-align: left;">Great tool for creating color schemes.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Highly valued for generating unique color schemes.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">http://colormind.io</td>
+<td style="text-align: left;">Free</td>
+<td style="text-align: left;">Free</td>
+</tr>
+<tr>
+<td style="text-align: left;">Generative Engine</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-assisted algorithmic design tool for architects and designers.</td>
+<td style="text-align: left;">Effective for algorithmic design processes.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Key tool for algorithm-driven designs.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://generative.design</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing based on project</td>
+</tr>
+<tr>
+<td style="text-align: left;">Khroma</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-based tool for generating color schemes and palettes for design projects.</td>
+<td style="text-align: left;">Good for custom color palette generation.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Good for custom color palette generation in design.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.khroma.co</td>
+<td style="text-align: left;">Free</td>
+<td style="text-align: left;">Free</td>
+</tr>
+<tr>
+<td style="text-align: left;">BricsCAD BIM</td>
+<td style="text-align: left;">Design Helper</td>
+<td style="text-align: left;">AI-powered BIM solution for architecture, streamlining workflows and designs.</td>
+<td style="text-align: left;">Solid BIM tool with AI-driven workflows.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Powerful BIM tool with AI-driven efficiencies.</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">https://www.bricsys.com</td>
+<td style="text-align: left;">Paid</td>
+<td style="text-align: left;">Custom pricing based on features</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+  
+    
+  
+  
+    
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 23, 2024</span>
+  </span>
+
+    
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Created">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 23, 2024</span>
+  </span>
+
+    
+    
+    
+  </aside>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search.suggest", "search.highlight", "content.code.annotation", "content.code.copy", "content.action.edit"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+    
+  </body>
+</html>
