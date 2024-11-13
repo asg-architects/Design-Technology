@@ -5,6 +5,8 @@ repo_name: asg-architects/design-technology
 edit_uri: edit/main/docs/
 markdown_extensions:
   - tables
+  - attr_list
+  - md_in_html
 plugins:
   - search
   - table-reader
